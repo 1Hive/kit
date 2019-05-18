@@ -15,7 +15,7 @@ Things that provide information on the Aragon DAO Template process (note: "dao k
 - [Autark Labs TPS launcher](https://github.com/AutarkLabs/tps-launcher/) - Aragon customized onboarding wizard to launch DAOs powered by That Planning Suite (the code that creates https://rinkeby.autark.xyz/#/).
 - [Aragon Architecture Guide](https://github.com/aragon/aragon/blob/architecture-guide/ARCHITECTURE.md) - Might also be useful?
 
-Note: to run most of the examples in the repos or tutorials you'll need to install the Aragon CLI and have Aragon IPFS running in the background
+Note: to run most of the examples in the repos or tutorials you'll need to install the Aragon CLI and have Aragon devchain running in the background
 - make sure you have node `v10.15.3`, not `v12`
 - `npm i -g @aragon/cli@5.6.2` (currently this version of the Aragon CLI works)
 - `npx aragon devchain` in a separate terminal window
