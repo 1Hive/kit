@@ -1,6 +1,6 @@
 ---
 id: user-guide
-title: Redemptions App: User Guide
+title: 1Hive Redemptions App: User Guide
 custom_edit_url: https://github.com/1Hive/standards/blob/master/docs/user-guide.md
 sidebar_label: User Guide
 hide_title: false

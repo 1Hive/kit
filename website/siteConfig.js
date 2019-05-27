@@ -20,21 +20,37 @@ const users = [
   },
 ];
 
+// Site Config
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
-  tagline: 'A website for testing',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
-  baseUrl: '/', // Base URL for your project */
+	// global website stuff
+  title: '1Hive DAO Kit', 
+  tagline: 'A reproducable template for sustainable community driven organizations',
+
+
+	/////////////////////////////////////////////////////////////////////////
+	
+	// EXAMPLE
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
+	// UNCOMMENT FOR LOCAL DEVELOPMENT
+	url: 'https://your-docusaurus-test-site.com', // Your website URL
+	baseUrl: '/', // Base URL for your project */
+	
+	// UNCOMMENT FOR PUBLISHING TO GH-PAGES
+	//url: 'https://1hive.github.io', // Your website URL
+	//baseUrl: '/1hive-dao-kit/', // Base URL for your project */
+	
+	/////////////////////////////////////////////////////////////////////////
+
   // Used for publishing and more
-  projectName: 'test-site',
-  organizationName: 'facebook',
+  projectName: '1hive-dao-kit',
+  organizationName: '1Hive',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
+
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [

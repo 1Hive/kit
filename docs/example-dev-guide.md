@@ -1,6 +1,6 @@
 ---
 id: dev-guide
-title: Redemptions App: Dev Guide
+title: 1Hive Redemptions App: Dev Guide
 custom_edit_url: https://github.com/1Hive/standards/blob/master/docs/dev-guide.md
 sidebar_label: Dev Guide
 hide_title: false

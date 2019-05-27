@@ -5,6 +5,16 @@
 			"user-guide",
 			"dev-guide"
 		],
+		"Contributing": [
+			"communication-welcome",
+			"communication-keybase",
+			"communication-github",
+			"dao-membership",
+			"dao-projects-tasks",
+			"dao-allocations-payroll",
+			"dao-rewards-redemptions",
+			"dao-roles-responsibilities"
+		],
     "aragonCLI": [
       "cli-intro",
       "cli-main-commands",

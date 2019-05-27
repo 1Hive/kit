@@ -1,6 +1,6 @@
 ---
 id: basic-info
-title: Redemptions App: Basic Info
+title: 1Hive Redemptions App: Basic Info
 custom_edit_url: https://github.com/1Hive/standards/blob/master/docs/basic-info.md
 sidebar_label: Basic Info
 hide_title: false
