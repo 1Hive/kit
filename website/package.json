@@ -2,7 +2,8 @@
   "scripts": {
     "examples": "docusaurus-examples",
     "sync:cli": "node ./scripts/sync-cli-docs",
-    "generate": "npm run sync:cli",
+		"sync:amdocs": "node ./scripts/sync-testingautomagicdocs-docs.js",
+    "generate": "npm run sync:cli && npm run sync:amdocs",
     "start": "npm run generate && docusaurus-start",
     "build": "npm run generate && docusaurus-build",
     "publish-gh-pages": "docusaurus-publish",
