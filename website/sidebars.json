@@ -1,5 +1,10 @@
 {
   "docs": {
+		"Example: 1Hive Redemptions App": [
+			"basic-info",
+			"user-guide",
+			"dev-guide"
+		],
     "aragonCLI": [
       "cli-intro",
       "cli-main-commands",
@@ -12,12 +17,6 @@
 			"am-doc1",
 			"am-doc2",
 			"am-doc3"
-		],
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
-  },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
-  }
+		]
+	}
 }

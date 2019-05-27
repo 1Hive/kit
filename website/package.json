@@ -1,9 +1,11 @@
 {
   "scripts": {
     "examples": "docusaurus-examples",
+		"clean:docs": "rm -r ../docs/*",
     "sync:cli": "node ./scripts/sync-cli-docs",
 		"sync:amdocs": "node ./scripts/sync-testingautomagicdocs-docs.js",
-    "generate": "npm run sync:cli && npm run sync:amdocs",
+		"sync:examples": "node ./scripts/sync-example-docs.js",
+    "generate": "npm run clean:docs && npm run sync:cli && npm run sync:amdocs && npm run sync:examples",
     "start": "npm run generate && docusaurus-start",
     "build": "npm run generate && docusaurus-build",
     "publish-gh-pages": "docusaurus-publish",

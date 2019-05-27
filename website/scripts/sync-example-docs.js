@@ -1,0 +1,32 @@
+const { syncPages } = require('./sync-util')
+
+const GIT_REF = 'master'
+const REPO = '1Hive/standards'
+
+const pages = [
+  {
+    destination: 'docs/example-basic-info.md',
+    id: 'basic-info',
+    title: 'Redemptions App: Basic Info',
+    sidebarLabel: 'Basic Info',
+    contentLocation: 'docs/basic-info.md'
+  },
+  {
+    destination: 'docs/example-user-guide.md',
+    id: 'user-guide',
+    title: 'Redemptions App: User Guide',
+    sidebarLabel: 'User Guide',
+    contentLocation: 'docs/user-guide.md'
+  },
+  {
+    destination: 'docs/example-dev-guide.md',
+    id: 'dev-guide',
+    title: 'Redemptions App: Dev Guide',
+    sidebarLabel: 'Dev Guide',
+    contentLocation: 'docs/dev-guide.md'
+  }
+]
+
+const locationReferenceMap = {}
+
+syncPages(pages, locationReferenceMap, GIT_REF, REPO)
