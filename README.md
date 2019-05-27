@@ -3,10 +3,6 @@
 
 <br>
 
-## Deliverables
-
-<br>
-
 ### 1Hive DAO template
 - An easy to deploy [Aragon DAO template](https://hack.aragon.org/docs/templates-intro) that recreates the model used in 1Hive, but for any arbitrary organization. 
 
