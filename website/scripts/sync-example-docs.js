@@ -5,21 +5,21 @@ const REPO = '1Hive/standards'
 
 const pages = [
   {
-    destination: 'docs/example-basic-info.md',
+    destination: 'docs/sync/example-basic-info.md',
     id: 'basic-info',
     title: '1Hive Redemptions App: Basic Info',
     sidebarLabel: 'Basic Info',
     contentLocation: 'docs/basic-info.md'
   },
   {
-    destination: 'docs/example-user-guide.md',
+    destination: 'docs/sync/example-user-guide.md',
     id: 'user-guide',
     title: '1Hive Redemptions App: User Guide',
     sidebarLabel: 'User Guide',
     contentLocation: 'docs/user-guide.md'
   },
   {
-    destination: 'docs/example-dev-guide.md',
+    destination: 'docs/sync/example-dev-guide.md',
     id: 'dev-guide',
     title: '1Hive Redemptions App: Dev Guide',
     sidebarLabel: 'Dev Guide',

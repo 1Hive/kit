@@ -2,24 +2,24 @@
   "docs": {
 		"Contributing": [
 			"contributing-welcome",
-			"communication-keybase",
-			"communication-github",
-			"dao-membership",
-			"dao-projects-tasks",
-			"dao-allocations-payroll",
-			"dao-rewards-redemptions",
-			"dao-roles-responsibilities"
+			"sync/communication-keybase",
+			"sync/communication-github",
+			"sync/dao-membership",
+			"sync/dao-projects-tasks",
+			"sync/dao-allocations-payroll",
+			"sync/dao-rewards-redemptions",
+			"sync/dao-roles-responsibilities"
 		]
 	},
 	"projects": {
 		"Welcome": [
 			"projects-welcome"
 		],
-		"Redemptions App": [
-			"redemptions-welcome",
-			"redemptions-basic-info",
-			"redemptions-user-guide",
-			"redemptions-dev-guide"
+		"Example Project: 1Hive Redemptions App": [
+			"sync/redemptions-overview",
+			"sync/redemptions-basic-info",
+			"sync/redemptions-user-guide",
+			"sync/redemptions-dev-guide"
 		]
 	}
 }
