@@ -12,13 +12,6 @@ const pages = [
     contentLocation: 'docs/overview.md'
   },
   {
-    destination: 'docs/sync/docs-example-basic-info.md',
-    id: 'docs-example-basic-info',
-    title: 'Basic Info',
-    sidebarLabel: 'Basic Info',
-    contentLocation: 'docs/basic-info.md'
-  },
-  {
     destination: 'docs/sync/docs-example-user-guide.md',
     id: 'docs-example-user-guide',
     title: 'User Guide',

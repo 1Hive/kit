@@ -27,7 +27,7 @@ class HomeSplash extends React.Component {
           <div className="wrapper homeWrapper">{props.children}</div>
         </div>
       </div>
-    );
+		);
 
     const Logo = props => (
       <div className="projectLogo">
@@ -63,9 +63,7 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
             <Button href="LINK-TO-YOUR-DAO">Link To Your DAO</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -95,16 +93,16 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
+            title: 'Feature One',
             content: 'This is the content of my feature',
             image: `${baseUrl}img/undraw_react.svg`,
             imageAlign: 'top',
-            title: 'Feature One',
           },
           {
+            title: 'Feature Two',
             content: 'The content of my second feature',
             image: `${baseUrl}img/undraw_operating_system.svg`,
             imageAlign: 'top',
-            title: 'Feature Two',
           },
         ]}
       </Block>
@@ -115,7 +113,7 @@ class Index extends React.Component {
         className="productShowcaseSection paddingBottom"
         style={{textAlign: 'center'}}>
         <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
+				<MarkdownBlock>The main feature of your project/thing</MarkdownBlock>
       </div>
     );
 
@@ -140,8 +138,8 @@ class Index extends React.Component {
           {
             content:
               'To make your landing page more attractive, use illustrations! Check out ' +
-              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
-              'The illustrations you see on this page are from unDraw.',
+              '[**unDraw**](https://undraw.co/) and [**Flaticon**](https://www.flaticon.com/) for customizable illustrations which are free to use. ' +
+              'The illustrations you see on this page are from unDraw and Flaticon.',
             image: `${baseUrl}img/undraw_code_review.svg`,
             imageAlign: 'left',
             title: 'Wonderful SVG Illustrations',
@@ -205,7 +203,7 @@ class Index extends React.Component {
           <Showcase />
         </div>
       </div>
-    );
+		);
   }
 }
 

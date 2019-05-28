@@ -14,8 +14,8 @@ const users = [
     caption: 'User1',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: '/img/undraw_open_source.svg',
-    infoLink: 'https://www.facebook.com',
+    image: '/img/dandelion3.jpeg',
+    infoLink: 'https://1hive.org/',
     pinned: true,
   },
 ];
@@ -24,7 +24,7 @@ const users = [
 const siteConfig = {
 	// global website stuff
   title: '1Hive DAO Kit', 
-  tagline: 'A reproducable template for sustainable community driven organizations',
+  tagline: 'A template for sustainable community driven organizations',
 
 
 	/////////////////////////////////////////////////////////////////////////
