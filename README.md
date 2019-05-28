@@ -4,7 +4,7 @@
 <br>
 
 ### [1Hive DAO template](https://github.com/1Hive/dao-template)
-- An easy to deploy [Aragon DAO template](https://hack.aragon.org/docs/templates-intro) that recreates the model used in 1Hive, but for any arbitrary organization. 
+- An easy to deploy [Aragon DAO template](https://hack.aragon.org/docs/templates-intro) that recreates the DAO model used in 1Hive, but for any arbitrary organization. 
 
 <br>
 
