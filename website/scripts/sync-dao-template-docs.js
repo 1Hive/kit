@@ -38,6 +38,13 @@ const pages = [
     sidebarLabel: 'Roles and Responsibilities',
     title: 'Roles and Responsibilities',
     contentLocation: 'docs/roles-responsibilities.md'
+	},
+	{
+    destination: 'docs/sync/dao-deployment-guide.md',
+    id: 'dao-deployment-guide',
+    sidebarLabel: 'DAO Deployment Guide',
+    title: '1Hive DAO Template Deployment Guide',
+    contentLocation: 'docs/deployment-guide.md'
 	}
 ]
 

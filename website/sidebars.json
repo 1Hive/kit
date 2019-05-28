@@ -17,6 +17,7 @@
 		],
 		"1Hive DAO Kit": [
 			"kit/kit-overview",
+			"sync/dao-deployment-guide",
 			"kit/kit-syncing",
 			"kit/kit-recommended-resources"
 		],

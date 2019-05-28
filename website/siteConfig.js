@@ -40,12 +40,12 @@ const siteConfig = {
 	
 	// UNCOMMENT FOR PUBLISHING TO GH-PAGES
 	//url: 'https://1hive.github.io', // Your website URL
-	//baseUrl: '/1hive-dao-kit/', // Base URL for your project */
+	//baseUrl: '/kit/', // Base URL for your project */
 	
 	/////////////////////////////////////////////////////////////////////////
 
   // Used for publishing and more
-  projectName: '1hive-dao-kit',
+  projectName: 'kit',
   organizationName: '1Hive',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
