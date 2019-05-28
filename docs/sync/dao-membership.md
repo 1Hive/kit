@@ -1,7 +1,7 @@
 ---
 id: dao-membership
 title: Membership and Participation
-custom_edit_url: https://github.com/1hive/dao/blob/master/docs/membership.md
+custom_edit_url: https://github.com/1hive/dao-template/blob/master/docs/membership.md
 sidebar_label: Membership and Participation
 hide_title: false
 ---

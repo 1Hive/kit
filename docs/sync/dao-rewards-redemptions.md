@@ -1,7 +1,7 @@
 ---
 id: dao-rewards-redemptions
 title: Rewards and Redemptions
-custom_edit_url: https://github.com/1hive/dao/blob/master/docs/rewards-redemptions.md
+custom_edit_url: https://github.com/1hive/dao-template/blob/master/docs/rewards-redemptions.md
 sidebar_label: Rewards and Redemptions
 hide_title: false
 ---

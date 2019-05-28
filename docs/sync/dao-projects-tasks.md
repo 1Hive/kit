@@ -1,7 +1,7 @@
 ---
 id: dao-projects-tasks
 title: Projects and Tasks
-custom_edit_url: https://github.com/1hive/dao/blob/master/docs/projects-tasks.md
+custom_edit_url: https://github.com/1hive/dao-template/blob/master/docs/projects-tasks.md
 sidebar_label: Projects and Tasks
 hide_title: false
 ---

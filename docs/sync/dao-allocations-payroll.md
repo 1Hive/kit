@@ -1,7 +1,7 @@
 ---
 id: dao-allocations-payroll
-title: Community Allocations and Payroll
-custom_edit_url: https://github.com/1hive/dao/blob/master/docs/allocations-payroll.md
+title: Allocations and Payroll
+custom_edit_url: https://github.com/1hive/dao-template/blob/master/docs/allocations-payroll.md
 sidebar_label: Allocations and Payroll
 hide_title: false
 ---

@@ -1,7 +1,7 @@
 ---
 id: dao-roles-responsibilities
 title: Roles and Responsibilities
-custom_edit_url: https://github.com/1hive/dao/blob/master/docs/roles-responsibilities.md
+custom_edit_url: https://github.com/1hive/dao-template/blob/master/docs/roles-responsibilities.md
 sidebar_label: Roles and Responsibilities
 hide_title: false
 ---

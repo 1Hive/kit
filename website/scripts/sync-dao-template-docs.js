@@ -1,14 +1,14 @@
 const { syncPages } = require('./sync-util')
 
 const GIT_REF = 'master'
-const REPO = '1hive/dao'
+const REPO = '1hive/dao-template'
 
 const pages = [
   {
     destination: 'docs/sync/dao-allocations-payroll.md',
     id: 'dao-allocations-payroll',
     sidebarLabel: 'Allocations and Payroll',
-    title: 'Community Allocations and Payroll',
+    title: 'Allocations and Payroll',
     contentLocation: 'docs/allocations-payroll.md'
   },
   {
