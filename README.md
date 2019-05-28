@@ -3,7 +3,7 @@
 
 <br>
 
-### 1Hive DAO template
+### [1Hive DAO template](https://github.com/1Hive/dao-template)
 - An easy to deploy [Aragon DAO template](https://hack.aragon.org/docs/templates-intro) that recreates the model used in 1Hive, but for any arbitrary organization. 
 
 <br>
@@ -13,7 +13,7 @@
 
 <br>
 
-### 1Hive DAO Kit Docusaurus
-- A Docusaurus that can be easily be forked and filled with the content of any organization. It will ship with docs/guides for the 1Hive DAO Kit itself, which users can keep or overwrite.
+### [1Hive DAO Kit Docusaurus](https://1hive.github.io/kit/)
+- (this repo) A Docusaurus that can be easily be forked and filled with the content of any organization. It will ship with docs/guides for the 1Hive DAO Kit itself, which users can keep or overwrite.
 
 <br>
