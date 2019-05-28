@@ -1,7 +1,7 @@
 ---
-id: communication-welcome
+id: contributing-welcome
 title: Hi! Let's change the world, together.
-custom_edit_url: https://github.com/1Hive/communication/blob/master/docs/welcome.md
+custom_edit_url: https://github.com/1Hive/communication/blob/master/docs/contributing-welcome.md
 sidebar_label: Welcome
 hide_title: false
 ---

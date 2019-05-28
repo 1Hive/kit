@@ -1,12 +1,7 @@
 {
   "docs": {
-		"Example: 1Hive Redemptions App": [
-			"basic-info",
-			"user-guide",
-			"dev-guide"
-		],
 		"Contributing": [
-			"communication-welcome",
+			"contributing-welcome",
 			"communication-keybase",
 			"communication-github",
 			"dao-membership",
@@ -14,19 +9,17 @@
 			"dao-allocations-payroll",
 			"dao-rewards-redemptions",
 			"dao-roles-responsibilities"
+		]
+	},
+	"projects": {
+		"Welcome": [
+			"projects-welcome"
 		],
-    "aragonCLI": [
-      "cli-intro",
-      "cli-main-commands",
-      "cli-dao-commands",
-      "cli-apm-commands",
-      "cli-ipfs-commands",
-      "cli-global-confg"
-    ],
-		"automagicDocs": [
-			"am-doc1",
-			"am-doc2",
-			"am-doc3"
+		"Redemptions App": [
+			"redemptions-welcome",
+			"redemptions-basic-info",
+			"redemptions-user-guide",
+			"redemptions-dev-guide"
 		]
 	}
 }

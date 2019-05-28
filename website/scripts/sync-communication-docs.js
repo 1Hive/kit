@@ -5,11 +5,18 @@ const REPO = '1Hive/communication'
 
 const pages = [
   {
-    destination: 'docs/communication-welcome.md',
-    id: 'communication-welcome',
+    destination: 'docs/contributing-welcome.md',
+    id: 'contributing-welcome',
     sidebarLabel: 'Welcome',
     title: 'Hi! Let\'s change the world, together.',
-    contentLocation: 'docs/welcome.md'
+    contentLocation: 'docs/contributing-welcome.md'
+  },
+  {
+    destination: 'docs/projects-welcome.md',
+    id: 'projects-welcome',
+    sidebarLabel: 'Welcome',
+    title: 'Welcome',
+    contentLocation: 'docs/projects-welcome.md'
   },
   {
     destination: 'docs/communication-github.md',
