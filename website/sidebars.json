@@ -16,9 +16,9 @@
 			"projects-welcome"
 		],
 		"1Hive DAO Kit": [
-			"kit/overview",
-			"kit/syncing",
-			"kit/recommended-resources"
+			"kit/kit-overview",
+			"kit/kit-syncing",
+			"kit/kit-recommended-resources"
 		],
 		"1Hive Docs Standard": [
 			"sync/docs-example-overview",
