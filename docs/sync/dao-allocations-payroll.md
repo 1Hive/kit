@@ -11,11 +11,11 @@ Many types of contributions don't fit well into the task model.
 
 For example, the efforts of *Curators* and *Reviewers*, the deployment and operational costs of maintaining infrastructure (such as the website or Ethereum node), or the ad-hoc nature of community and social engagement.
 
-These types of contributions are critical to the success of 1Hive and must also be rewarded. We use two different mechanisms to compensate members for these types of contributions: **Allocations** and **Payroll**.
+These types of contributions are critical to the success of the organization and must also be rewarded. We use two different mechanisms to compensate members for these types of contributions: **Allocations** and **Payroll**.
 
-On a weekly basis, we use the **Allocations** application to distribute a fixed amount of `Honey` between a set of nominated recipients.
+On a weekly basis, we use the **Allocations** application to distribute a fixed amount of `MRT` between a set of nominated recipients.
 
-The weekly allocations amount is determined by `Bee` vote, and then split between nominees using the **Dot Voting** application.
+The weekly allocations amount is determined by `MBR` vote, and then split between nominees using the **Dot Voting** application.
 
 Any member of the organization can nominate any other member for an allocation period simply by saying so in the keybase #nominations channel.
 
@@ -35,4 +35,4 @@ Payroll is intended to provide a baseline compensation level for consistent cont
 
 Payroll is calculated separately from any compensation earned through tasks or allocations, so it shouldn't be compared to an equivalent salary.
 
-Members who are added to payroll should have a clearly defined scope of recurring work. A member who has been added to Payroll can choose to claim their allotment in any treasury asset, including `Honey`.
+Members who are added to payroll should have a clearly defined scope of recurring work. A member who has been added to Payroll can choose to claim their allotment in any treasury asset, including `MRT`.
