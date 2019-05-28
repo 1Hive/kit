@@ -1,5 +1,5 @@
 <h1 align='center'>1Hive Dao Kit</h1>
-<p align='center'>A kit to deploy a 1Hive style DAO and Docusaurus for your organization.</p>
+<p align='center'>A template for sustainable community driven organizations.</p>
 <p align='center'>
   <img src='https://github.com/1Hive/kit/blob/master/website/static/img/dandelion-transparent-cropped.png' />
 </p>
