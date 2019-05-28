@@ -21,6 +21,7 @@ class HomeSplash extends React.Component {
     const langPart = `${language ? `${language}/` : ''}`;
     const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
 
+		/*
     const SplashContainer = props => (
       <div className="homeContainer">
         <div className="homeSplashFade">
@@ -28,6 +29,27 @@ class HomeSplash extends React.Component {
         </div>
       </div>
 		);
+		*/
+
+		const SplashContainer = props => (
+			<div
+				className="homeContainer"
+				style={{
+				backgroundSize: 'cover',
+				backgroundRepeat: 'no-repeat',
+				backgroundPosition: 'center',
+				backgroundImage: `url(${baseUrl}img/dandelion3.jpeg)`,
+				}}
+			>
+				<div className="homeSplashFade"
+					style={{
+						backgroundColor: 'rgba(0, 0, 0, 0.1)',
+					}}
+				>
+          <div className="wrapper homeWrapper">{props.children}</div>
+        </div>
+      </div>
+    );
 
     const Logo = props => (
       <div className="projectLogo">
@@ -57,24 +79,6 @@ class HomeSplash extends React.Component {
         </a>
       </div>
     );
-
-    return (
-      <SplashContainer>
-        <div className="inner">
-          <ProjectTitle siteConfig={siteConfig} />
-          <PromoSection>
-            <Button href="LINK-TO-YOUR-DAO">Link To Your DAO</Button>
-          </PromoSection>
-        </div>
-      </SplashContainer>
-    );
-  }
-}
-
-class Index extends React.Component {
-  render() {
-    const {config: siteConfig, language = ''} = this.props;
-    const {baseUrl} = siteConfig;
 
     const Block = props => (
       <Container
@@ -115,6 +119,41 @@ class Index extends React.Component {
         <h2>Feature Callout</h2>
 				<MarkdownBlock>The main feature of your project/thing</MarkdownBlock>
       </div>
+    );
+
+    return (
+      <SplashContainer>
+        <div className="inner">
+          <ProjectTitle siteConfig={siteConfig} />
+          <PromoSection>
+            <Button href="LINK-TO-YOUR-DAO">Link To Your DAO</Button>
+          </PromoSection>
+        </div>
+        <div className="mainContainer">
+          <Features />
+          <FeatureCallout />
+				</div>
+      </SplashContainer>
+    );
+  }
+}
+
+class Index extends React.Component {
+  render() {
+    const {config: siteConfig, language = ''} = this.props;
+    const {baseUrl} = siteConfig;
+
+    const Block = props => (
+      <Container
+        padding={['bottom', 'top']}
+        id={props.id}
+        background={props.background}>
+        <GridBlock
+          align="center"
+          contents={props.children}
+          layout={props.layout}
+        />
+      </Container>
     );
 
     const Section1 = () => (
@@ -195,8 +234,6 @@ class Index extends React.Component {
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
-          <Features />
-          <FeatureCallout />
           <Section1 />
           <Section2 />
           <Section3 />
