@@ -35,15 +35,19 @@ class HomeSplash extends React.Component {
 			<div
 				className="homeContainer"
 				style={{
-				backgroundSize: 'cover',
-				backgroundRepeat: 'no-repeat',
-				backgroundPosition: 'center',
-				backgroundImage: `url(${baseUrl}img/dandelion3.jpeg)`,
+					color: 'white',
+					position: 'relative',
+					overflow: 'hidden',
+					background: 'linear-gradient(#6da9e2, #c7def4)',
 				}}
 			>
 				<div className="homeSplashFade"
 					style={{
-						backgroundColor: 'rgba(0, 0, 0, 0.1)',
+						backgroundColor: 'rgba(0, 0, 0, 0.005)',
+						backgroundSize: 'cover',
+						backgroundRepeat: 'no-repeat',
+						backgroundPosition: 'center',
+						backgroundImage: `url(${baseUrl}img/dandelion-transparent.png)`,
 					}}
 				>
           <div className="wrapper homeWrapper">{props.children}</div>
@@ -52,29 +56,29 @@ class HomeSplash extends React.Component {
     );
 
     const Logo = props => (
-      <div className="projectLogo">
+      <div className="projectLogo white-text">
         <img src={props.img_src} alt="Project Logo" />
       </div>
     );
 
     const ProjectTitle = () => (
-      <h2 className="projectTitle">
+      <h2 className="projectTitle white-text">
         {siteConfig.title}
         <small>{siteConfig.tagline}</small>
       </h2>
     );
 
     const PromoSection = props => (
-      <div className="section promoSection">
-        <div className="promoRow">
+      <div className="section promoSection white-text">
+        <div className="promoRow white-text">
           <div className="pluginRowBlock">{props.children}</div>
         </div>
       </div>
     );
 
     const Button = props => (
-      <div className="pluginWrapper buttonWrapper">
-        <a className="button" href={props.href} target={props.target}>
+      <div className="pluginWrapper buttonWrapper white-text">
+        <a className="button white-text" href={props.href} target={props.target}>
           {props.children}
         </a>
       </div>
@@ -86,6 +90,7 @@ class HomeSplash extends React.Component {
         id={props.id}
         background={props.background}>
         <GridBlock
+					color="white"
           align="center"
           contents={props.children}
           layout={props.layout}
