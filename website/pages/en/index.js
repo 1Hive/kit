@@ -60,7 +60,6 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
@@ -92,6 +91,25 @@ class Index extends React.Component {
       </Container>
     );
 
+    const Features = () => (
+      <Block layout="fourColumn">
+        {[
+          {
+            content: 'This is the content of my feature',
+            image: `${baseUrl}img/undraw_react.svg`,
+            imageAlign: 'top',
+            title: 'Feature One',
+          },
+          {
+            content: 'The content of my second feature',
+            image: `${baseUrl}img/undraw_operating_system.svg`,
+            imageAlign: 'top',
+            title: 'Feature Two',
+          },
+        ]}
+      </Block>
+    );
+
     const FeatureCallout = () => (
       <div
         className="productShowcaseSection paddingBottom"
@@ -101,7 +119,22 @@ class Index extends React.Component {
       </div>
     );
 
-    const TryOut = () => (
+    const Section1 = () => (
+      <Block background="light">
+        {[
+          {
+            content:
+              'Most users leave a page within seconds, so make the first impression count.',
+            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
+            imageAlign: 'right',
+            title: 'Something Interesting About Your Project',
+          },
+        ]}
+      </Block>
+    );
+
+
+    const Section2 = () => (
       <Block id="try">
         {[
           {
@@ -117,7 +150,7 @@ class Index extends React.Component {
       </Block>
     );
 
-    const Description = () => (
+    const Section3 = () => (
       <Block background="dark">
         {[
           {
@@ -126,39 +159,6 @@ class Index extends React.Component {
             image: `${baseUrl}img/undraw_note_list.svg`,
             imageAlign: 'right',
             title: 'Description',
-          },
-        ]}
-      </Block>
-    );
-
-    const LearnHow = () => (
-      <Block background="light">
-        {[
-          {
-            content:
-              'Each new Docusaurus project has **randomly-generated** theme colors.',
-            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
-            imageAlign: 'right',
-            title: 'Randomly Generated Theme Colors',
-          },
-        ]}
-      </Block>
-    );
-
-    const Features = () => (
-      <Block layout="fourColumn">
-        {[
-          {
-            content: 'This is the content of my feature',
-            image: `${baseUrl}img/undraw_react.svg`,
-            imageAlign: 'top',
-            title: 'Feature One',
-          },
-          {
-            content: 'The content of my second feature',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
-            imageAlign: 'top',
-            title: 'Feature Two',
           },
         ]}
       </Block>
@@ -182,7 +182,7 @@ class Index extends React.Component {
       return (
         <div className="productShowcaseSection paddingBottom">
           <h2>Who is Using This?</h2>
-          <p>This project is used by all these people</p>
+					<p>People like social proof. Make it easy for new users to justify spending time to learn about and contribute to your project by showing all the people who also used and contributed to your project.</p>
           <div className="logos">{showcase}</div>
           <div className="more-users">
             <a className="button" href={pageUrl('users.html')}>
@@ -199,9 +199,9 @@ class Index extends React.Component {
         <div className="mainContainer">
           <Features />
           <FeatureCallout />
-          <LearnHow />
-          <TryOut />
-          <Description />
+          <Section1 />
+          <Section2 />
+          <Section3 />
           <Showcase />
         </div>
       </div>
