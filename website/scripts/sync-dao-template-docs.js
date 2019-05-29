@@ -45,6 +45,13 @@ const pages = [
     sidebarLabel: 'DAO Deployment Guide',
     title: '1Hive DAO Template Deployment Guide',
     contentLocation: 'docs/deployment-guide.md'
+	},
+	{
+    destination: 'docs/sync/dao-user-guide.md',
+    id: 'dao-user-guide',
+    sidebarLabel: 'DAO User Guide',
+    title: '1Hive DAO Template User Guide',
+    contentLocation: 'docs/user-guide.md'
 	}
 ]
 
