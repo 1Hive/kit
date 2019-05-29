@@ -180,7 +180,7 @@ class Index extends React.Component {
       <Block id="try">
         {[
           {
-            title: 'Wonderful SVG Illustrations',
+            title: 'Wonderful Illustrations',
             content:
               'To make your landing page more attractive, use illustrations! Check out ' +
               '[**unDraw**](https://undraw.co/) and [**Flaticon**](https://www.flaticon.com/) for customizable illustrations which are free to use. ' +
