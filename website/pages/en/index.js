@@ -165,11 +165,11 @@ class Index extends React.Component {
       <Block background="light">
         {[
           {
+            title: 'Something Interesting About Your Project',
             content:
               'Most users leave a page within seconds, so make the first impression count.',
-            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
+            image: `${baseUrl}img/051-sun.png`,
             imageAlign: 'right',
-            title: 'Something Interesting About Your Project',
           },
         ]}
       </Block>
@@ -180,27 +180,27 @@ class Index extends React.Component {
       <Block id="try">
         {[
           {
+            title: 'Wonderful SVG Illustrations',
             content:
               'To make your landing page more attractive, use illustrations! Check out ' +
               '[**unDraw**](https://undraw.co/) and [**Flaticon**](https://www.flaticon.com/) for customizable illustrations which are free to use. ' +
               'The illustrations you see on this page are from unDraw and Flaticon.',
-            image: `${baseUrl}img/undraw_code_review.svg`,
+						image: `${baseUrl}img/garden/051-rain.png`,
             imageAlign: 'left',
-            title: 'Wonderful SVG Illustrations',
           },
         ]}
       </Block>
     );
 
     const Section3 = () => (
-      <Block background="dark">
+      <Block background="light">
         {[
           {
-            content:
-              'This is another description of how this project is useful',
-            image: `${baseUrl}img/undraw_note_list.svg`,
-            imageAlign: 'right',
             title: 'Description',
+            content:
+              'This is another description of something awesome about your project!',
+						image: `${baseUrl}img/garden/051-tree-1.png`,
+            imageAlign: 'right',
           },
         ]}
       </Block>

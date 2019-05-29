@@ -2,8 +2,8 @@
   "docs": {
 		"Contributing": [
 			"contributing-welcome",
-			"sync/communication-keybase",
-			"sync/communication-github",
+			"chat",
+			"github",
 			"sync/dao-membership",
 			"sync/dao-projects-tasks",
 			"sync/dao-allocations-payroll",

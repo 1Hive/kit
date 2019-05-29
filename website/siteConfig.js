@@ -14,7 +14,7 @@ const users = [
     caption: 'User1',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: 'img/dandelion3.jpeg',
+    image: 'img/bee.svg',
     infoLink: 'https://1hive.org/',
     pinned: true,
   },

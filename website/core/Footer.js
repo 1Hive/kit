@@ -89,7 +89,7 @@ class Footer extends React.Component {
           rel="noreferrer noopener"
           className="fbOpenSource">
           <img
-            src={`${this.props.config.baseUrl}img/bee.svg`}
+            src={`${this.props.config.baseUrl}img/dandelion-transparent.png`}
             alt="1Hive"
             width="170"
             height="45"
