@@ -12,13 +12,6 @@ const pages = [
     contentLocation: 'docs/overview.md'
   },
   {
-    destination: 'docs/sync/redemptions-github.md',
-    id: 'redemptions-basic-info',
-    sidebarLabel: 'Basic Info',
-    title: '1Hive Redemptions App: basic info',
-    contentLocation: 'docs/basic-info.md'
-  },
-  {
     destination: 'docs/sync/redemptions-user-guide.md',
     id: 'redemptions-user-guide',
     sidebarLabel: 'User Guide',
