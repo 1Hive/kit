@@ -1,7 +1,7 @@
 ---
 id: contributing-welcome
-title: Catchy Call To Action Goes Here! 
 sidebar_label: Welcome
+title: Catchy Call To Action Goes Here! 
 hide_title: false
 ---
 

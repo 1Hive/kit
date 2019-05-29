@@ -1,7 +1,7 @@
 ---
 id: github
-title: Navigating Our GitHub
 sidebar_label: Navigating Our GitHub
+title: Navigating Our GitHub
 hide_title: false
 ---
 

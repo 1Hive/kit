@@ -1,8 +1,7 @@
 ---
 id: projects-welcome
-title: Welcome
-custom_edit_url: https://github.com/1Hive/communication/blob/master/docs/projects-welcome.md
 sidebar_label: Welcome
+title: Welcome
 hide_title: false
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: chat
+sidebar_label: Community Chat
 title: Community Chat
-sidebar_label: Joining Our Chat
 hide_title: false
 ---
 
