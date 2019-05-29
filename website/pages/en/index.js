@@ -104,13 +104,13 @@ class HomeSplash extends React.Component {
           {
             title: 'Feature One',
             content: 'This is the content of my feature',
-            image: `${baseUrl}img/undraw_react.svg`,
+            image: `${baseUrl}img/051-ladybug.png`,
             imageAlign: 'top',
           },
           {
             title: 'Feature Two',
             content: 'The content of my second feature',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
+            image: `${baseUrl}img/051-butterfly.png`,
             imageAlign: 'top',
           },
         ]}
