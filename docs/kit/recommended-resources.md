@@ -1,5 +1,5 @@
 ---
-id: kit-recommended-resources
+id: recommended-resources
 sidebar_label: Recommended Resources 
 title: Recommended Resources 
 hide_title: false

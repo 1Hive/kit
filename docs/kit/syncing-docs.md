@@ -1,7 +1,7 @@
 ---
-id: kit-syncing
-sidebar_label: Docusaurus Sync Guide 
-title: Docusaurus Sync Guide
+id: syncing-docs
+sidebar_label: Syncing Docs
+title: How to sync documentation to this website
 hide_title: false
 ---
 

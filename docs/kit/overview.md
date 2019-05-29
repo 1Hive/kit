@@ -1,5 +1,5 @@
 ---
-id: kit-overview 
+id: overview 
 sidebar_label: Overview 
 title: The 1Hive DAO Kit 
 hide_title: false

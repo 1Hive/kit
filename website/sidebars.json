@@ -16,10 +16,12 @@
 			"projects-welcome"
 		],
 		"1Hive DAO Kit": [
-			"kit/kit-overview",
+			"kit/overview",
+			"kit/docusaurus",
+			"kit/syncing-docs",
+			"kit/blockchain-basics",
 			"sync/dao-deployment-guide",
-			"kit/kit-syncing",
-			"kit/kit-recommended-resources"
+			"kit/recommended-resources"
 		],
 		"1Hive Docs Standard": [
 			"sync/docs-example-overview",
