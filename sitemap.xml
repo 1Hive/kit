@@ -8,7 +8,9 @@
 <url> <loc>https://1hive.github.io/kit/blog/2017/09/25/testing-rss</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://1hive.github.io/kit/blog/2017/04/10/blog-post-two</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://1hive.github.io/kit/blog/2016/03/11/blog-post</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://1hive.github.io/kit/docs/chat</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://1hive.github.io/kit/docs/chat" /> </url>
 <url> <loc>https://1hive.github.io/kit/docs/contributing-welcome</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://1hive.github.io/kit/docs/contributing-welcome" /> </url>
+<url> <loc>https://1hive.github.io/kit/docs/github</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://1hive.github.io/kit/docs/github" /> </url>
 <url> <loc>https://1hive.github.io/kit/docs/kit/kit-overview</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://1hive.github.io/kit/docs/kit/kit-overview" /> </url>
 <url> <loc>https://1hive.github.io/kit/docs/kit/kit-recommended-resources</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://1hive.github.io/kit/docs/kit/kit-recommended-resources" /> </url>
 <url> <loc>https://1hive.github.io/kit/docs/kit/kit-syncing</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://1hive.github.io/kit/docs/kit/kit-syncing" /> </url>
